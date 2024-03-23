@@ -1,10 +1,11 @@
 import Navbar from "./components/Navbar/Navbar";
+import Sports from "./components/Sports/Sports";
 
 export default function Home() {
   return (
     <div>
       <Navbar></Navbar>
-      <h1 className="text-2xl font-semibold"> Sports </h1>
+      <Sports></Sports>
     </div>
   );
 }
