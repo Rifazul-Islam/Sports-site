@@ -47,7 +47,9 @@ const Sports = () => {
 
       {/** See More Button  */}
       <div className="text-center my-7">
-        <button className="btn bg-[#2C9CF0] "> See More </button>
+        <button className="btn bg-[#2C9CF0] hover:bg-[#4d9bd6] text-white ">
+          See More
+        </button>
       </div>
     </div>
   );

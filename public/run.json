@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/4pX869k/run1.jpg",
+    "name": "Las Vegas Aviators",
+    "date": "OCT 15",
+    "day": "SUN",
+    "time": "4:20 PM",
+    "title": "Las Vegas Ballpark, Las Vegas, Nevada",
+    "cardLook": " Take Flight Collection"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/7bHTSv3/run2.jpg",
+    "name": "Sacramento River Cats",
+    "date": "OCT 15",
+    "day": "SUN",
+    "time": "4:20 PM",
+    "title": "Sutter Health Park, Sacramento, California",
+    "cardLook": "Orange Collection"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/4pX869k/run1.jpg",
+    "name": "Las Vegas Aviators",
+    "date": "OCT 15",
+    "day": "SUN",
+    "time": "4:20 PM",
+    "title": "Las Vegas Ballpark, Las Vegas, Nevada",
+    "cardLook": " Take Flight Collection"
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/7bHTSv3/run2.jpg",
+    "name": "Las Vegas Aviators",
+    "date": "OCT 15",
+    "day": "SUN",
+    "time": "4:20 PM",
+    "title": "Las Vegas Ballpark, Las Vegas, Nevada",
+    "cardLook": " Orange Collection"
+  }
+]
