@@ -8,6 +8,10 @@ module.exports = {
   darkMode: "class", // Enable dark mode using the 'class' strategy
   theme: {
     extend: {
+      colors: {
+        "top-color": "#18272A",
+        "bottom-color": "#1E1C2A",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

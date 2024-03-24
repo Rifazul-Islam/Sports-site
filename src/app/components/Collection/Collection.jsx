@@ -22,8 +22,8 @@ const Collection = () => {
   }, []);
 
   return (
-    <div className="mt-20 pb-20">
-      <div className="space-y-3 text-center">
+    <div className="mt-20 pb-20 ">
+      <div className="space-y-3 text-center m-10  dark:bg-gradient-to-b from-top-color to-bottom-color  p-10">
         <h1 className="text-3xl font-bold text-black dark:text-white ">
           Collection Spotlight{" "}
         </h1>
@@ -45,7 +45,7 @@ const Collection = () => {
           >
             {alls?.map((item) => (
               <SwiperSlide key={item?._id}>
-                <div className="bg-white">
+                <div className="bg-white dark:bg-[#3B3E47] dark:text-white">
                   <Image
                     className=" h-[500px]  w-full rounded-lg"
                     src={item?.image}
@@ -54,14 +54,19 @@ const Collection = () => {
                     alt=""
                   />
 
-                  <div className=" my-3 p-2">
-                    <h3 className="text-2xl font-bold mb-2"> {item?.name}</h3>
+                  <div className="my-3 p-2">
+                    <h3 className="text-[22px] font-bold mb-2">
+                      {" "}
+                      {item?.name}
+                    </h3>
                     <span> {item?.date} </span> | <span>{item?.day} </span> |{" "}
                     <span> {item?.time}</span>
-                    <p className="pt-2 px-3 text-[#A9ACB2]"> {item?.title} </p>
+                    <p className="pt-2 px-3 text-[#444545] dark:text-[#d2d7de]">
+                      {item?.title}
+                    </p>
                   </div>
 
-                  <button className="btn w-full bg-[#1D1D1F] hover:bg-[#1D1D1F] text-white px-2">
+                  <button className="btn w-[90%] border-none bg-[#000000] rounded-none hover:bg-[#1D1D1F] text-white m-2 mx-auto">
                     {item?.cardLook}
                   </button>
                 </div>

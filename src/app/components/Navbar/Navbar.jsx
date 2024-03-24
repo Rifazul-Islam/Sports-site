@@ -25,7 +25,7 @@ const Navbar = ({ dark, setDark }) => {
 
   return (
     <div className="shadow-lg py-4 flex justify-between items-center px-5">
-      <div className="text-2xl font-bold border-b-4 border-red-700 text-red-600">
+      <div className="text-2xl font-bold border-b-4 border-red-700 dark:text-red-600 ">
         Sports
       </div>
       <div onClick={toggleTheme}>
