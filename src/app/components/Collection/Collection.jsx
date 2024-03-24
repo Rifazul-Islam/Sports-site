@@ -27,7 +27,7 @@ const Collection = () => {
         <h1 className="text-3xl font-bold text-black dark:text-white ">
           Collection Spotlight{" "}
         </h1>
-        <p className="w-[912px] mx-auto text-[14px] text-black dark:text-white ">
+        <p className="lg:w-[912px] mx-auto text-[14px] text-black dark:text-white ">
           Discover extraordinary moments with our Spotlight Collection
           metatickets—exclusive access to premium events for an unforgettable
           experience. Grab yours today!
@@ -45,7 +45,7 @@ const Collection = () => {
           >
             {alls?.map((item) => (
               <SwiperSlide key={item?._id}>
-                <div className="bg-white dark:bg-[#3B3E47] dark:text-white">
+                <div className="bg-white shadow-2xl overflow-x-auto dark:bg-[#3B3E47] dark:text-white border-2 dark:border-none">
                   <Image
                     className=" h-[500px]  w-full rounded-lg"
                     src={item?.image}
@@ -53,8 +53,11 @@ const Collection = () => {
                     height={50}
                     alt=""
                   />
-
-                  <div className="my-3 p-2">
+                  <span className="text-[#818A97]">
+                    {" "}
+                    ---------------------------------
+                  </span>
+                  <div className="my-2 p-2">
                     <h3 className="text-[22px] font-bold mb-2">
                       {" "}
                       {item?.name}
@@ -66,7 +69,7 @@ const Collection = () => {
                     </p>
                   </div>
 
-                  <button className="btn w-[90%] border-none bg-[#000000] rounded-none hover:bg-[#1D1D1F] text-white m-2 mx-auto">
+                  <button className="btn w-[90%] border-none bg-[#000000] rounded-none hover:bg-[#1D1D1F] text-white m-2 mx-auto ">
                     {item?.cardLook}
                   </button>
                 </div>
