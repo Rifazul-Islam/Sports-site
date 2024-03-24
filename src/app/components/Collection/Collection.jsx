@@ -22,10 +22,12 @@ const Collection = () => {
   }, []);
 
   return (
-    <div className="my-20">
+    <div className="mt-20 pb-20">
       <div className="space-y-3 text-center">
-        <h1 className="text-3xl font-bold">Collection Spotlight </h1>
-        <p className="w-[912px] mx-auto text-[14px] text-[#000000]">
+        <h1 className="text-3xl font-bold text-black   darkMode:text-white">
+          Collection Spotlight{" "}
+        </h1>
+        <p className="w-[912px] mx-auto text-[14px] text-black   darkMode:text-blue-200">
           Discover extraordinary moments with our Spotlight Collection
           metatickets—exclusive access to premium events for an unforgettable
           experience. Grab yours today!

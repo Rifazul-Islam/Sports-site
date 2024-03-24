@@ -34,8 +34,8 @@ const Sports = () => {
               alt="Players"
             />
 
-            <h3 className=" font-bold my-2"> Advertisement title</h3>
-            <p className="text-[13px] pb-14">
+            <h3 className=" font-bold  my-2"> Advertisement title</h3>
+            <p className="text-[13px] pb-14 ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
               ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -46,8 +46,8 @@ const Sports = () => {
       </div>
 
       {/** See More Button  */}
-      <div className="text-center my-7">
-        <button className="btn bg-[#2C9CF0] hover:bg-[#4d9bd6] text-white ">
+      <div className="text-center my-7 ">
+        <button className="btn bg-[#2C9CF0] hover:bg-[#4d9bd6] text-white  border-none">
           See More
         </button>
       </div>
