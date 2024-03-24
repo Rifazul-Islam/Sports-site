@@ -25,7 +25,7 @@ const Sports = () => {
 
         {/** Second Part and add show   */}
         <div className="lg:w-[300px] lg:h-[470px]">
-          <div className="border-2 p-2 shadow-md">
+          <div className="border-2 p-2 dark:shadow-2xl dark:bg-[#3B3E47]  dark:border-none shadow-md relative">
             <Image
               className="rounded-md w-full h-[200px] "
               src="https://i.ibb.co/5YVyQS2/add1.jpg"
@@ -33,9 +33,15 @@ const Sports = () => {
               height={50}
               alt="Players"
             />
-
-            <h3 className=" font-bold  my-2"> Advertisement title</h3>
-            <p className="text-[13px] pb-14 ">
+            <p className="bg-black p-1 text-white  w-12 text-center rounded absolute top-2 right-2">
+              {" "}
+              Ad
+            </p>
+            <h3 className=" font-bold  my-2 font-inter dark:text-white">
+              {" "}
+              Advertisement title
+            </h3>
+            <p className="text-[13px] pb-14 dark:text-white">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
               ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

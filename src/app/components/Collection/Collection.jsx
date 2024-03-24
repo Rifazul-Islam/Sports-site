@@ -24,10 +24,10 @@ const Collection = () => {
   return (
     <div className="mt-20 pb-20">
       <div className="space-y-3 text-center">
-        <h1 className="text-3xl font-bold text-black   darkMode:text-white">
+        <h1 className="text-3xl font-bold text-black dark:text-white ">
           Collection Spotlight{" "}
         </h1>
-        <p className="w-[912px] mx-auto text-[14px] text-black   darkMode:text-blue-200">
+        <p className="w-[912px] mx-auto text-[14px] text-black dark:text-white ">
           Discover extraordinary moments with our Spotlight Collection
           metatickets—exclusive access to premium events for an unforgettable
           experience. Grab yours today!
@@ -58,7 +58,7 @@ const Collection = () => {
                     <h3 className="text-2xl font-bold mb-2"> {item?.name}</h3>
                     <span> {item?.date} </span> | <span>{item?.day} </span> |{" "}
                     <span> {item?.time}</span>
-                    <p className="pt-2 px-3 text-[#A9ACB2] "> {item?.title} </p>
+                    <p className="pt-2 px-3 text-[#A9ACB2]"> {item?.title} </p>
                   </div>
 
                   <button className="btn w-full bg-[#1D1D1F] hover:bg-[#1D1D1F] text-white px-2">
