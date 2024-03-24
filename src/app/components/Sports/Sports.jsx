@@ -45,7 +45,7 @@ const Sports = () => {
               Experience the thrill of every season with top-quality gear and
               apparel at DICKS Sporting Goods. From winter adventures to summer
               fun, find everything you need to conquer the outdoors and pursue
-              your passions. Shop now for unbeatable selection and service
+              your passions. Shop now for unbeatable selection.
             </p>
           </div>
         </div>
